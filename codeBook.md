@@ -10,7 +10,7 @@ The subject from which the measurements are taken. It is an integer from 1 to 30
 
 **Other variables**
 
-The values for the following variables are the average values for the observations for the given activity and subject. The descriptions of the variable names are as follows:
+The values for the following variables are the average values for the observations for the given activity and subject. Names with *-XYZ* mean that there are three variables representing each of the axes. The descriptions of the variable names are as follows:
 
 * tBodyAcc-XYZ
 
@@ -33,19 +33,30 @@ The values for the following variables are the average values for the observatio
 	Jerk signal from body angular velocity
 
 * tBodyAccMag
+
 * tGravityAccMag
+
 * tBodyAccJerkMag
+
 * tBodyGyroMag
+
 * tBodyGyroJerkMag
 
 	Magnitudes of the vectors above calculated using the Euclidean norm
 
 * fBodyAcc-XYZ
+
+
 * fBodyAccJerk-XYZ
+
 * fBodyGyro-XYZ
+
 * fBodyAccMag
+
 * fBodyAccJerkMag
+
 * fBodyGyroMag
+
 * fBodyGyroJerkMag
 
 	Result of applying a fast Fourier transform to the signals above
